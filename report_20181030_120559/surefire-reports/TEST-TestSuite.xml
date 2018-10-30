@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="6" failures="3" name="TestSuite" time="21.186" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.171-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/app"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/app"/>
+    <property name="java.runtime.version" value="1.8.0_171-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-1.8-openjdk/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/usr/share/maven/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="maven.test.failure.ignore" value="true"/>
+    <property name="os.version" value="4.4.111+"/>
+    <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native"/>
+    <property name="user.home" value="/root"/>
+    <property name="user.timezone" value="GMT"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="root"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-1.8-openjdk/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dmaven.test.failure.ignore=true -e"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_171"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-1.8-openjdk/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-1.8-openjdk/jre/lib/resources.jar:/usr/lib/jvm/java-1.8-openjdk/jre/lib/rt.jar:/usr/lib/jvm/java-1.8-openjdk/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.8-openjdk/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8-openjdk/jre/lib/jce.jar:/usr/lib/jvm/java-1.8-openjdk/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8-openjdk/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8-openjdk/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="mytests.Test1" name="user_should_navigate_to_mercurytours" time="2.897"/>
+  <testcase classname="mytests.Test2" name="user_should_navigate_to_google_page" time="16.705"/>
+  <testcase classname="mytests.Test2" name="user_should_logintotours" time="1.313"/>
+  <testcase classname="mytests.Test2" name="user_click_on_newstab" time="0.129">
+    <failure message="Unable to locate element: /html/body/div/table/tbody/tr/td[2]/table/tbody/tr[2]/td/table/tbody/tr/td[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;phptravel-5wcfs&apos;, ip: &apos;10.44.1.7&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.111+&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{moz:profile=/tmp/rust_mozprofile.McTdO0FbzgLY, rotatable=false, zal:idleTimeout=150.0, moz:geckodriverVersion=0.23.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, webdriver.remote.sessionid=9c004590-e7f8-4b42-b1c7-ad9df4bd25db, acceptInsecureCerts=false, browserVersion=63.0, platformVersion=4.4.111+, moz:processID=1594.0, browserName=firefox, javascriptEnabled=true, platformName=linux, zal:name=SparkMercury, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 9c004590-e7f8-4b42-b1c7-ad9df4bd25db
+*** Element info: {Using=xpath, value=/html/body/div/table/tbody/tr/td[2]/table/tbody/tr[2]/td/table/tbody/tr/td[1]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div/table/tbody/tr/td[2]/table/tbody/tr[2]/td/table/tbody/tr/td[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;phptravel-5wcfs&apos;, ip: &apos;10.44.1.7&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.111+&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{moz:profile=/tmp/rust_mozprofile.McTdO0FbzgLY, rotatable=false, zal:idleTimeout=150.0, moz:geckodriverVersion=0.23.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, webdriver.remote.sessionid=9c004590-e7f8-4b42-b1c7-ad9df4bd25db, acceptInsecureCerts=false, browserVersion=63.0, platformVersion=4.4.111+, moz:processID=1594.0, browserName=firefox, javascriptEnabled=true, platformName=linux, zal:name=SparkMercury, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 9c004590-e7f8-4b42-b1c7-ad9df4bd25db
+*** Element info: {Using=xpath, value=/html/body/div/table/tbody/tr/td[2]/table/tbody/tr[2]/td/table/tbody/tr/td[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at mytests.Test2.user_click_on_newstab(Test2.java:67)
+</failure>
+  </testcase>
+  <testcase classname="mytests.Test2" name="flight_booking" time="0.069">
+    <failure message="Unable to locate element: *[name=&apos;tripType&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;phptravel-5wcfs&apos;, ip: &apos;10.44.1.7&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.111+&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{moz:profile=/tmp/rust_mozprofile.McTdO0FbzgLY, rotatable=false, zal:idleTimeout=150.0, moz:geckodriverVersion=0.23.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, webdriver.remote.sessionid=9c004590-e7f8-4b42-b1c7-ad9df4bd25db, acceptInsecureCerts=false, browserVersion=63.0, platformVersion=4.4.111+, moz:processID=1594.0, browserName=firefox, javascriptEnabled=true, platformName=linux, zal:name=SparkMercury, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 9c004590-e7f8-4b42-b1c7-ad9df4bd25db
+*** Element info: {Using=name, value=tripType}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;tripType&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;phptravel-5wcfs&apos;, ip: &apos;10.44.1.7&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.111+&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{moz:profile=/tmp/rust_mozprofile.McTdO0FbzgLY, rotatable=false, zal:idleTimeout=150.0, moz:geckodriverVersion=0.23.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, webdriver.remote.sessionid=9c004590-e7f8-4b42-b1c7-ad9df4bd25db, acceptInsecureCerts=false, browserVersion=63.0, platformVersion=4.4.111+, moz:processID=1594.0, browserName=firefox, javascriptEnabled=true, platformName=linux, zal:name=SparkMercury, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 9c004590-e7f8-4b42-b1c7-ad9df4bd25db
+*** Element info: {Using=name, value=tripType}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:485)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at mytests.Test2.flight_booking(Test2.java:73)
+</failure>
+  </testcase>
+  <testcase classname="mytests.Test2" name="flight_bookingconfirm" time="0.073">
+    <failure message="Unable to locate element: *[name=&apos;passFirst0&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;phptravel-5wcfs&apos;, ip: &apos;10.44.1.7&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.111+&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{moz:profile=/tmp/rust_mozprofile.McTdO0FbzgLY, rotatable=false, zal:idleTimeout=150.0, moz:geckodriverVersion=0.23.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, webdriver.remote.sessionid=9c004590-e7f8-4b42-b1c7-ad9df4bd25db, acceptInsecureCerts=false, browserVersion=63.0, platformVersion=4.4.111+, moz:processID=1594.0, browserName=firefox, javascriptEnabled=true, platformName=linux, zal:name=SparkMercury, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 9c004590-e7f8-4b42-b1c7-ad9df4bd25db
+*** Element info: {Using=name, value=passFirst0}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;passFirst0&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;phptravel-5wcfs&apos;, ip: &apos;10.44.1.7&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.111+&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{moz:profile=/tmp/rust_mozprofile.McTdO0FbzgLY, rotatable=false, zal:idleTimeout=150.0, moz:geckodriverVersion=0.23.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, webdriver.remote.sessionid=9c004590-e7f8-4b42-b1c7-ad9df4bd25db, acceptInsecureCerts=false, browserVersion=63.0, platformVersion=4.4.111+, moz:processID=1594.0, browserName=firefox, javascriptEnabled=true, platformName=linux, zal:name=SparkMercury, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 9c004590-e7f8-4b42-b1c7-ad9df4bd25db
+*** Element info: {Using=name, value=passFirst0}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:485)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at mytests.Test2.flight_bookingconfirm(Test2.java:92)
+</failure>
+  </testcase>
+</testsuite>
