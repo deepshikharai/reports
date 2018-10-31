@@ -1,0 +1,50 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 49.227 sec <<< FAILURE!
+flight_booking(mytests.Test2)  Time elapsed: 0.123 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name='tripType']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'phptravel-lk26p', ip: '10.44.1.7', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.111+', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{moz:profile=/tmp/rust_mozprofile.kNQZc2PRssh0, rotatable=false, zal:idleTimeout=150.0, moz:geckodriverVersion=0.23.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, webdriver.remote.sessionid=49a6b87b-2f77-4741-8d88-dbbfbeb11039, acceptInsecureCerts=false, browserVersion=63.0, platformVersion=4.4.111+, moz:processID=1939.0, browserName=firefox, javascriptEnabled=true, platformName=linux, zal:name=SparkMercury, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 49a6b87b-2f77-4741-8d88-dbbfbeb11039
+*** Element info: {Using=name, value=tripType}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:485)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at mytests.Test2.flight_booking(Test2.java:73)
+flight_bookingconfirm(mytests.Test2)  Time elapsed: 0.174 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name='passFirst0']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'phptravel-lk26p', ip: '10.44.1.7', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.111+', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{moz:profile=/tmp/rust_mozprofile.kNQZc2PRssh0, rotatable=false, zal:idleTimeout=150.0, moz:geckodriverVersion=0.23.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, webdriver.remote.sessionid=49a6b87b-2f77-4741-8d88-dbbfbeb11039, acceptInsecureCerts=false, browserVersion=63.0, platformVersion=4.4.111+, moz:processID=1939.0, browserName=firefox, javascriptEnabled=true, platformName=linux, zal:name=SparkMercury, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 49a6b87b-2f77-4741-8d88-dbbfbeb11039
+*** Element info: {Using=name, value=passFirst0}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:485)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at mytests.Test2.flight_bookingconfirm(Test2.java:92)

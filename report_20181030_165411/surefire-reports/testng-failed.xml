@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" verbose="0" name="Failed suite [Suite]" parallel="classes">
+  <test name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="mytests.Test2">
+        <methods>
+          <include name="close_chrome"/>
+          <include name="flight_bookingconfirm"/>
+          <include name="flight_booking"/>
+          <include name="run_the_browser"/>
+        </methods>
+      </class> <!-- mytests.Test2 -->
+      <class name="mytests.Test1">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- mytests.Test1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
